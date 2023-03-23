@@ -47,4 +47,8 @@ public class Person {
     public int hashCode(){
         return Objects.hash(name, surname, age, sex);
     }
+
+    public String fullName(){
+        return "[Имя: " + name + ", Фамилия: " + surname + "]";
+    } 
 }
